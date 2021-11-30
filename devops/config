@@ -1,0 +1,2 @@
+build_type=nodejs12
+image_name=hello-world-service

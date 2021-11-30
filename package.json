@@ -1,0 +1,25 @@
+{
+  "name": "hello-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc && npm run copy-assets",
+    "copy-assets": "ts-node copy-assets.ts",
+	"run-dev":"npm run build && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.25",
+    "@types/shelljs": "^0.8.8",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}

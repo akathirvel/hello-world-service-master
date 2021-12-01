@@ -1,1 +1,9 @@
 namespace: hello-world
+
+service:
+  type: NodePort
+  ports:
+    - port: 8080
+      targetPort: 8080
+      protocol: TCP # default TCP
+      nodePort: 30007

@@ -7,7 +7,7 @@ service:
       protocol: TCP # default TCP
 ingress:
   paths:
-    - path: "/"
+    - path: "/api"
       jwtValidate: true # default false
       stripPath: true  # default false
       service:

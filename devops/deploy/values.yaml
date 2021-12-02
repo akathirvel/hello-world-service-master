@@ -1,5 +1,5 @@
 namespace: hello-world
-
+type: NodePort
 service:
   ports:
     - port: 8080
